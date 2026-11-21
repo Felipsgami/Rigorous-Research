@@ -1,4 +1,4 @@
-# rigorous-research
+# Rigorous-Research
 
 **PT-BR** · [English below](#english)
 
