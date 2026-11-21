@@ -33,7 +33,7 @@ Relatório · resposta direta · checagem de fatos · comparativo · linha do te
 
 **ChatGPT, Gemini, DeepSeek, Kimi e outros:** cole [`PROMPT.md`](PROMPT.md) nas instruções do assistente. Onde houver Python, envie também a pasta `scripts/`.
 
-Combina com a skill irmã [`humanize-text`](../humanize-text), que tem as regras completas de voz em português e inglês.
+Combina com a skill irmã [`Humanize-Text`](https://github.com/Felipsgami/Humanize-Text), que tem as regras completas de voz em português e inglês.
 
 ## O motor (`scripts/research.py`)
 
@@ -118,7 +118,7 @@ Report · brief · fact-check · comparison · timeline · how-to guide · dossi
 
 **ChatGPT, Gemini, DeepSeek, Kimi and others:** paste [`PROMPT.md`](PROMPT.md) into the assistant's instructions. Where Python is available, upload the `scripts/` folder too.
 
-Pairs with the sibling skill [`humanize-text`](../humanize-text), which holds the full voice rules for Portuguese and English.
+Pairs with the sibling skill [`Humanize-Text`](https://github.com/Felipsgami/Humanize-Text), which holds the full voice rules for Portuguese and English.
 
 ### The engine
 Python 3.9+. `pip install requests python-docx lxml` (optional: `matplotlib pdfplumber pypdfium2`). For the full LaTeX vocabulary on export, install [pandoc](https://pandoc.org). Commands as listed above. Scholarly search uses **OpenAlex** with no key (Crossref fallback); without a key OpenAlex shares a small daily budget per IP, and a free key in `OPENALEX_API_KEY` raises it.
